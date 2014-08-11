@@ -1,5 +1,9 @@
 {# begin {templatelocation} #}
+<<<<<<< HEAD
 <table style="width:100%;border-collapse:collapse; border:solid #CCC 1px; margin-bottom:10px;">
+=======
+<table style="width:100%;border-collapse: collapse;border-spacing:0px solid #CCC; margin-bottom:10px;">
+>>>>>>> upstream/master
   <tr style="vertical-align:middle;">
     <td class="pluginTitle alignleft" style="padding:4px;">
         <b>{$LANG_EVLIST['event_title']}</b>
@@ -14,7 +18,11 @@
 
   <!-- BEGIN eventRow -->
   <tr class="pluginRow{cssid}">
+<<<<<<< HEAD
     <td style="padding-left:6px; height:20px;">
+=======
+    <td class="" style="padding-left:6px; height:20px;">
+>>>>>>> upstream/master
         <b><a class="gf_mootip" title="{summary}::{startdate}"
             href="{pi_url}/event.php?eid={eid}">{title}</a></b>
     </td>
